@@ -1,1 +1,6 @@
-This is my first file in git hub. Hi helloo there!!!!
+lst()
+num=int(input('How many numbers:'))
+for n in range(num):
+    numbers=int(input('Enter number'))
+    lst.append(numbers)
+print("sum of elements in given list is:",sum(lst))
